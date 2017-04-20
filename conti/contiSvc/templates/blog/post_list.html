@@ -758,7 +758,7 @@
                     </a>
                 </div>
                 <div class="nav-module right">
-                    <a href="{% url 'post_detail' pk=post.pk %}" class="nav-function modal-trigger" data-modal-id="search-form">
+                    <a href="#" class="nav-function modal-trigger" data-modal-id="search-form">
                         <i class="interface-search icon icon--sm"></i>
                         <span>Search</span>
                     </a>
@@ -782,7 +782,8 @@
                     </div>
                     <div class="item__detail">
                         <span>Dave Wool Beanie</span>
-                        <span class="h6">1 x $39.00</span>
+                        <span class="h6">1 x $39.00</
+                        span>
                     </div>
                     <div class="item__remove" title="Remove From Cart"></div>
                 </li>
@@ -879,7 +880,7 @@
                             <div class="masonry__filters text-center" data-filter-all-text="Show All"></div>
                             <div class="masonry__container masonry--animate">
                                 <div class="col-md-4 col-sm-6 masonry__item" data-masonry-filter="accessories">
-                                    <a href="#">
+                                    <a href="{% url 'post_detail' pk=1 %}">
                                         <div class="card card-7">
                                             <div class="card__image">
                                                 <img alt="Pic" src="{% static 'img/product-large-1.jpg' %}" />
